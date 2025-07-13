@@ -1,0 +1,115 @@
+body {
+  background: linear-gradient(135deg, #ffb3ec, #ffd6e8);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  min-height: 100vh;
+  padding: 20px;
+  color: deeppink;
+}
+
+.titulo {
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.calculadora {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.3);
+  width: 500px;
+  max-width: 320px;
+  margin-top: 20px;
+}
+
+#display {
+  width: 288px;
+  padding: 15px;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 15px;
+  border: 2px solid deeppink;
+  border-radius: 10px;
+  background-color: #fff0f6;
+  color: #3302c5;
+}
+
+.botoes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.btn {
+  padding: 18px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff69b4;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-es {
+  padding: 18px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f13770;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-es:hover {
+  background-color: #ff85c1;
+  transform: scale(1.05);
+}
+
+.btn-es:active {
+  transform: scale(0.95);
+  box-shadow: none;
+}
+.btn-point {
+  padding: 18px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fca34d;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-point:hover {
+  background-color: #ff85c1;
+  transform: scale(1.05);
+}
+
+.btn-point:active {
+  transform: scale(0.95);
+  box-shadow: none;
+}
+
+.btn:hover {
+  background-color: #ff85c1;
+  transform: scale(1.05);
+}
+
+.btn:active {
+  transform: scale(0.95);
+  box-shadow: none;
+}
+.igual {
+  grid-row: span 2;
+  background-color: #cc00cc;
+}
+
+.zero {
+  grid-column: span 2;
+  background-color: rgb(108, 222, 114);
+}

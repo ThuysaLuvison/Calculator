@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Calculadora Aurora ✨</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="calculadora-arcoíris.png" type="image/x-icon">
+  </head>
+  <body>
+    <h1 class="titulo">Calculadora Aurora 🌈 </h1>
+    <div class="calculadora">
+      <input type="text" id="display" disabled>
+      <div class="botoes">
+        <button class="btn-es" onclick="limpar()">C</button>
+        <button class="btn-es" onclick="adicionar('/')">÷</button>
+        <button class="btn-es" onclick="adicionar('*')">×</button>
+        <button class="btn-es" onclick="remover()">⌫</button>
+
+        <button class="btn" onclick="adicionar('7')">7</button>
+        <button class="btn" onclick="adicionar('8')">8</button>
+        <button class="btn" onclick="adicionar('9')">9</button>
+        <button class="btn-es" onclick="adicionar('-')">-</button>
+
+        <button class="btn" onclick="adicionar('4')">4</button>
+        <button class="btn" onclick="adicionar('5')">5</button>
+        <button class="btn" onclick="adicionar('6')">6</button>
+        <button class="btn-es" onclick="adicionar('+')">+</button>
+
+        <button class="btn" onclick="adicionar('1')">1</button>
+        <button class="btn" onclick="adicionar('2')">2</button>
+        <button class="btn" onclick="adicionar('3')">3</button>
+        <button class="btn igual" onclick="calcular()">=</button>
+
+        <button class="btn zero" onclick="adicionar('0')">0</button>
+        <button class="btn-point" onclick="adicionar('.')">.</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
