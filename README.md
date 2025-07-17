@@ -51,4 +51,4 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 **Feito com 💜 e café por Thuysa Monique Luvison da Rosa**
 
-[Calculator](calculator-gules-beta-41.vercel.app)
+[Calculator](https://calculator-gules-beta-41.vercel.app/)
