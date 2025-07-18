@@ -1,7 +1,10 @@
 # 🌅 Calculadora Aurora
 
 Bem-vindo a **Calculadora Aurora**!
-Este projeto é uma aplicação web leve, funcional e visualmente encantadora, desenvolvida com **HTML**, **CSS** e **JavaScript puro**. Inspirada pela diversidade e pela liberdade de expressão, Aurora oferece uma experiência de cálculo simples, intuitiva e acessível — perfeita para quem busca praticidade com um toque de identidade.
+
+Este projeto é uma aplicação web leve, funcional e visualmente encantadora, desenvolvida com **HTML**, **CSS** e **JavaScript puro**. 
+
+Inspirada pela diversidade e pela liberdade de expressão, Aurora oferece uma experiência de cálculo simples, intuitiva e acessível — perfeita para quem busca praticidade com um toque de identidade.
 
 ---
 
