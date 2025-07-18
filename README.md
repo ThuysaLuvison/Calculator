@@ -1,6 +1,7 @@
 # 🌅 Calculadora Aurora
 
-A **Calculadora Aurora** é uma aplicação web leve, funcional e visualmente encantadora, desenvolvida com **HTML**, **CSS** e **JavaScript puro**. Inspirada pela diversidade e pela liberdade de expressão, Aurora oferece uma experiência de cálculo simples, intuitiva e acessível — perfeita para quem busca praticidade com um toque de identidade.
+Bem-vindo a **Calculadora Aurora**!
+Este projeto é uma aplicação web leve, funcional e visualmente encantadora, desenvolvida com **HTML**, **CSS** e **JavaScript puro**. Inspirada pela diversidade e pela liberdade de expressão, Aurora oferece uma experiência de cálculo simples, intuitiva e acessível — perfeita para quem busca praticidade com um toque de identidade.
 
 ---
 
@@ -14,19 +15,21 @@ A **Calculadora Aurora** é uma aplicação web leve, funcional e visualmente en
 
 ---
 
-## 📁 Estrutura do projeto
+## 🛠️ Tecnologias utilizadas
 
-📂 calculadora-aurora/
-├── index.html # Estrutura da calculadora
-├── style.css # Estilização com cores, responsividade e animações
-├── script.js # Lógica funcional com eventos e localStorage
-└── arco-iris.png # Ícone da calculadora (favicon)
+- HTML5
+- CSS3 (Grid, Flexbox e animações)
+- JavaScript (DOM, eventos, localStorage)
 
 ---
 
-## 💡 Como usar
+## 📁 Estrutura dos Arquivos
 
-Você pode visualizar e usar a Calculadora Aurora diretamente em seu navegador com o link do vercel disponivel no final!
+📦 Calculadora-Aurora/
+ ┣ 📜 `index.html` → Estrutura da calculadora
+ ┣ 📜 `style.css`  → Estilização com cores, responsividade e animações
+ ┣ 📜 `script.js`  → Lógica funcional com eventos e localStorage
+ ┗ 📷 calculadora-arcoíris.png (favicon)
 
 ---
 
@@ -36,7 +39,7 @@ O nome **Aurora** representa **luz, beleza, diversidade e liberdade**. Assim com
 
 ---
 
-## 🚀 Possibilidades futuras
+## 💡 Ideias para melhorias
 
 - Histórico de cálculos
 - Modo escuro
@@ -46,11 +49,11 @@ O nome **Aurora** representa **luz, beleza, diversidade e liberdade**. Assim com
 
 ---
 
-## 🛠️ Tecnologias utilizadas
 
-- HTML5
-- CSS3 (Grid, Flexbox e animações)
-- JavaScript (DOM, eventos, localStorage)
+## 📱 Compatibilidade com celular e tablet
+
+O layout foi feito usando `flexbox` e media queries para funcionar bem em celulares e tablets.  
+Os botões se ajustam, os textos continuam legíveis, e tudo se adapta ao tamanho da tela.
 
 ---
 
