@@ -1,6 +1,6 @@
 # 🌅 Calculadora Aurora
 
-Bem-vindo(a) a **Calculadora Aurora**!
+Bem-vindo a **Calculadora Aurora**!
 
 Este projeto é uma aplicação web leve, funcional e visualmente encantadora, desenvolvida com **HTML**, **CSS** e **JavaScript puro**. 
 
